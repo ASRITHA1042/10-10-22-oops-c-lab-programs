@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main() 
+{
+   int n, sum=0, i;
+   cin>>n;
+   while(i<=n)
+   {
+   sum=sum+i;
+     i++;
+   }
+   cout<<"sum of n no's = "<<sum;
+   return 0;
+}
