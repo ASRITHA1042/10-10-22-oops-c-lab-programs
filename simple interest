@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+void intrest()
+{
+	int p,t,sisc,sic,y=1,n=2,s;
+	cout<<"principal amount:";
+	cin>>p;
+	cout<<"time period:";
+	cin>>t;
+	cout<<" senior citizen:";
+	cin>>s;
+	if(s==1)
+	{
+		sisc=(p*t*12)/100;
+		cout<<"simple interest:"<<sisc;
+	}
+	else
+	{
+		sic=(p*t*10)/100;
+		cout<<"simple interest:"<<sic;
+    }
+}
+int main()
+{
+	intrest();
+    return 0;
+}
